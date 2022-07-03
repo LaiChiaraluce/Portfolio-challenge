@@ -1,0 +1,79 @@
+.hobbies{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 4rem 0rem 7rem 0rem;
+}
+
+.hobbies__titulo{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
+	margin-bottom: 4rem;
+}
+
+.hobbies__container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.containerHobbies__divs{
+	margin-right: 3em;
+}
+
+.containerHobbies__divs:first-child{
+	background: url(../imagenes/entrenamiento.png) center / cover no-repeat;
+	border-radius: 100%;
+}
+
+.containerHobbies__divs:nth-child(2){
+	background: url(../imagenes/musica.png) center / cover no-repeat;
+	border-radius: 100%;
+}
+
+.containerHobbies__divs:nth-child(3){
+	background: url(../imagenes/estudiar.png) center / cover no-repeat;
+}
+
+.containerHobbies__divs:nth-child(4){
+	background: url(../imagenes/peliculas.png) center / cover no-repeat;
+}
+
+.containerHobbies__titulo{
+	background: rgba(0, 0, 0, .7);
+    color: #FDFDFD;
+    padding: .5rem;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+	.hobbies{
+		margin: 2rem;
+	}
+	.hobbies__titulo{
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+	.hobbies__container{
+		margin-bottom: 2rem;
+		flex-wrap: wrap;
+	}
+	.containerHobbies__divs{
+		margin-right: .5rem;
+	}
+	.containerHobbies__titulo{
+		padding: .3rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.containerHobbies__divs{
+		margin-right: 2em;
+	}
+	.containerHobbies__titulo{
+		padding: .3rem;
+	}
+}
+

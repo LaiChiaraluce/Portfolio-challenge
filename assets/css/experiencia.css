@@ -1,0 +1,138 @@
+.experiencia{
+	margin-top: 4rem;
+}
+
+.experiencia__titulo{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.experiencia__container{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 3rem;
+}
+
+.experiencia__container:nth-child(2){
+	flex-direction: row-reverse;
+}
+
+.container__imagen{
+	box-shadow: 1px 3px 15px 9px rgba(0,0,0,0.58);
+	-webkit-box-shadow: 1px 3px 15px 9px rgba(0,0,0,0.58);
+	-moz-box-shadow: 1px 3px 15px 9px rgba(0,0,0,0.58);
+}
+
+#encriptador-img{
+	width: 55rem;
+	height: 30rem;
+}
+
+#ahorcado-img{
+	width: 52rem;
+	height: 35rem;
+}
+
+.proyecto__titulo{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-bottom: .3rem;
+}
+
+.proyecto__leyenda{
+	font-size: 1rem;
+	margin-bottom: .5rem;
+}
+
+.proyecto__container{
+	display: flex;
+}
+
+.container__button{
+	cursor: pointer;
+	margin-right: .5rem;
+	padding: 6px;
+	height: 47px;
+	width: 120px;
+	font-size: 1.1rem;
+	border: none;
+	transition: all .5s;
+}
+
+.proyecto{
+	display: flex;
+	flex-direction: column;
+}
+
+.boton-repo{
+	background-color: #FFFFFF;
+	color: #B06232; 
+	border: 1px solid #B06232;
+}
+
+.boton-repo:hover{
+	background-color: #B06232;
+	color: #FFFFFF;
+}
+
+.boton-demo{
+	background-color: #B06232;
+	color: #FFFFFF;
+}
+
+.boton-demo:hover{
+	background-color: #A33B29;
+}
+
+.button__link{
+	text-decoration: none; 
+}
+
+@media screen and (max-width: 767px){
+	.experiencia{
+		padding: 1rem;
+	}
+	.experiencia__container{
+		flex-direction: column;
+	}
+	.experiencia__container:nth-child(2){
+		flex-direction: column;
+	}
+	.container__imagen{
+		margin: 2rem 1rem;
+	}
+	#encriptador-img{
+		width: 19rem;
+		height: 16rem;
+	}
+	#ahorcado-img{
+		width: 18rem;
+		height: 15rem;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.experiencia__container{
+		flex-direction: column;
+	}
+	.experiencia__container:nth-child(2){
+		flex-direction: column;
+	}
+	.container__imagen{
+		margin: 2.5rem;
+	}
+	#encriptador-img{
+		width: 45rem;
+		height: 31rem;
+	}
+	#ahorcado-img{
+		width: 42rem;
+		height: 35rem;
+	}
+}

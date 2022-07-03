@@ -1,0 +1,82 @@
+.formacion__container--principal{
+	background: #EFF9FF;
+	margin-top: 4em;
+	padding: 4rem;
+	border-top: 2px solid #B06232;
+	border-bottom: 2px solid #B06232;
+}
+
+.formacion__titulo{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.formacion__container{
+	display: flex;
+	justify-content: center;
+}
+
+.container__div{
+	display: flex;
+	flex-direction: column;
+	margin: 3rem 4rem 1rem 3rem;
+}
+
+.div__imagen{
+	height: 250px;
+	width: 300px;
+	border: 2px solid #000000;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#utn{
+	background-image: url(../imagenes/utn.jpeg);
+	background-position: -40px 0px;
+}
+
+#alura{
+	background-image: url(../imagenes/alura.png);
+	background-position: 0px -25px;
+}
+
+.div__titulo{
+	margin-top: .8rem;
+}
+
+.div__fecha{
+	margin-top: .6rem;
+	font-size: .9rem;
+}
+
+@media screen and (max-width: 767px){
+	.formacion__container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.container__div{
+		margin: 2.5rem 0rem;
+	}
+	.div__imagen{
+		height: 180px;
+		width: 280px;
+	}
+	#utn{
+		background-position: 0px 0px;
+	}
+	#alura{
+		background-position: 0px -40px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.container__div{
+		margin: 3rem 2rem 1rem 2rem;
+	}
+	.div__imagen{
+		height: 230px;
+		width: 280px;
+	}
+}

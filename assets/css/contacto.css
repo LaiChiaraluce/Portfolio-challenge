@@ -1,0 +1,100 @@
+.contacto{
+	display: flex;
+	width: 90%;
+	margin: 7rem 3rem 1.5rem 3rem;
+}
+
+.contacto__container{
+	margin-left: 1.5rem;
+}
+
+.img{
+	width: 40.6rem;
+	height: 43.7rem;
+	margin-right: 2rem;
+}
+
+.contacto__titulo{
+	font-weight: bold;
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+
+.contacto__leyenda{
+	font-size: 1rem;
+	margin-bottom: .3rem;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.formulario__label{
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: .4rem;
+}
+
+.formulario__input{
+	height: 2rem;
+	font-size: 1.2rem;
+	border: 2px solid #B06232;
+	padding: .5rem; 
+}
+
+.aviso{
+	margin-top: .3rem;
+	color: #F33F33;
+}
+
+.mensaje{
+	height: 12rem;
+}
+
+.formulario__button{
+	cursor: pointer;
+	font-size: 1rem;
+	padding: .5rem;
+	margin-top: 1rem;
+	width: 9rem;
+	height: 2.8rem;
+	background-color: #B06232;
+	color: #FFFFFF;
+	border: none;
+	transition: all .5s;
+}
+
+.formulario__button:hover{
+	background-color: #A33B29;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px){
+	.contacto{
+		margin: 1rem;
+	}
+	.contacto__img{
+		display: none;
+	}
+	.contacto__container{
+		margin-left: 0rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.contacto{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 5rem 0rem 0rem 0rem;
+	}
+	.contacto__img{
+		display: none;
+	}
+	.contacto__container{
+		margin: 0rem;
+	}
+}

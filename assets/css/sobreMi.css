@@ -1,0 +1,50 @@
+.sobreMi{
+	background: #EFF9FF;
+	margin-top: 1rem;
+	padding: 2rem;
+	border-top: 2px solid #B06232;
+	border-bottom: 2px solid #B06232;
+}
+
+.sobreMi__container{
+	width: 70%;
+	padding: 2rem 0rem 2rem 4rem;
+}
+
+.sobreMi__titulo{
+	font-weight: bold;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.sobreMi__parrafo{
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px){
+	.sobreMi{
+		padding: 1rem;
+	}
+	.sobreMi__container{
+		width: 90%;
+		padding: 1rem;
+	}
+	.sobreMi__parrafo{
+		font-size: 1.1rem;
+		margin-bottom: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.sobreMi__container{
+		width: 80%;
+		padding: 1rem 3rem;
+	}
+	.sobreMi__titulo{
+		margin-bottom: 1.5rem;
+	}
+	.sobreMi__parrafo{
+		width: 100%;
+	}
+}
