@@ -55,10 +55,10 @@
 	height: 368px;
 	width: 368px;
 	margin: 0rem 1rem;
-	background-image: url(../imagenes/foto--frente.jpeg);
+	background-image: url(../imagenes/foto-cv.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0px -40px;
+	background-position: -10px 0px;
 	border-radius: 100%;
 	border: 1.5px solid #B06232;
 }
@@ -83,7 +83,7 @@
 		width: 120px;
 		margin-left: 0rem;
 		margin-bottom: .7rem;
-		background-position: 0px 0px;
+		background-position: -13px 0px;
 	}
 	.listaRedes__item{
 		margin-right: 2.5rem;

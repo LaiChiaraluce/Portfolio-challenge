@@ -39,7 +39,7 @@
 			<section class="presentacion">
 				<div class="presentacion__container">
 					<h1 class="presentacion__titulo">Hola! Mi nombre es Estanislao Chiaraluce, te invito a conocerme!</h1>
-					<p class="presentacion__leyenda">Tengo 22 años, soy argentino, vivo en San Nicolas, ciudad ubicada en la provincia de Buenos Aires. Actualmente me encuentro realizando el curso de Programación Inicial de Alura Latam, dentro del proyecto Oracle ONE.</p>
+					<p class="presentacion__leyenda">Tengo 23 años, soy argentino, vivo en San Nicolás de los Arroyos, ciudad ubicada en la provincia de Buenos Aires.</p>
 					<ul class="listaRedes">
 						<li class="listaRedes__item" id="github"><a href="https://github.com/LaiChiaraluce" target="_blank" class="listaRedes__link">Github</a></li>
 						<li class="listaRedes__item" id="linkedin"><a href="https://www.linkedin.com/in/estanislao-chiaraluce-85b78121a/" class="listaRedes__link" target="_blank" >Linkedin</a></li>
@@ -52,10 +52,10 @@
 				<div class="sobreMi__container">
 					<h2 class="sobreMi__titulo">Sobre mi</h2>
 					<p class="sobreMi__parrafo">
-						Al salir de la Escuela Secundaria comencé a estudiar carreras de la rama de las Humanidades y si bien me gustaron mucho terminé descartándolas porque descubrí que verdaderamente no quería dedicarme en lo profesional a ese tipo de tareas. Tiempo después descubrí el mundo de la programación y me embarqué en esta aventura de aprender día a día a crear cosas nuevas por medio del uso de diferentes lenguajes.
+						Al finalizar la Escuela Secundaria comencé a estudiar carreras de la rama de las Humanidades (Trabajo Social y Antropología), las cuales enriquecieron grandemente mis conocimientos. Sin embargo, tiempo después descubrí el mundo de la programación y me embarqué en esta aventura de aprender día a día a crear cosas nuevas por medio del uso de diferentes teconologías.
 					</p>
 					<p class="sobreMi__parrafo">
-						Actualmente me encuentro estudiando una carrera universitaria, trabajo y a su vez llevo adelante el curso de Alura Latam, ya que mi intención es adquirir las herramientas suficientes para poder comenzar a trabajar como programador. A la par de mis ocupaciones diarias, intento hacerme tiempo para otras cosas tales como entrenar, ver series, compartir el tiempo con mi familia y mis amigos.
+						Actualmente me encuentro estudiando una carrera universitaria (Tecnicatura Universitaria en Programación), trabajo y a su vez llevo adelante cursos para poder avanzar en el conocimiento de nuevos lenguajes, ya que mi intención es adquirir las herramientas suficientes para poder comenzar a trabajar a nivel profesional.
 					</p>
 				</div>
 			</section>
@@ -95,7 +95,7 @@
 				</div>
 			</section>
 			<section class="experiencia" id="proyectos">
-				<h2 class="experiencia__titulo">Experiencia profesional</h2>
+				<h2 class="experiencia__titulo">Algunos de mis proyectos</h2>
 				<div class="experiencia__container">
 					<img src="assets/imagenes/encriptador.png" class="container__imagen" alt="imagen-encriptador" id="encriptador-img">
 					<div class="proyecto">
@@ -120,8 +120,13 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="visit-github">
+					<p>¿Querés ver más de mis proyectos? <a href="https://github.com/LaiChiaraluce" target="_blank">Visitá mi perfil de Github!</a></p>
+				</div>
+
 			</section>
-			<section class="contacto">
+			<!--<section class="contacto">
 				<div class="contacto__img">
 					<img src="assets/imagenes/formulario.png" alt="imagen-de-contacto" class="img">
 				</div>
@@ -129,19 +134,19 @@
 					<h3 class="contacto__titulo">Contacto</h3>
 					<p class="contacto__leyenda">¿Querés contactarme?</p>
 					<p class="contacto__leyenda">Completá el siguiente formulario y me voy a comunicar con vos lo antes posible!</p>
-					<form class="formulario">
+					<form class="formulario" action='enviar.php' method="post">
 						<label class="formulario__label">Nombre</label><input type="text" name="nombre" class="formulario__input nombre" onKeyUp="validarNombre()">
 						<div class="aviso aviso-nombre"></div>
 						<label class="formulario__label">Email</label><input type="email" name="email" class="formulario__input mail" onKeyUp="validarMail()">
 						<div class="aviso aviso-mail"></div>
 						<label class="formulario__label">Asunto</label><input type="text" name="asunto" class="formulario__input asunto" onKeyUp="validarAsunto()">
 						<div class="aviso aviso-asunto"></div>
-						<label class="formulario__label">Mensaje</label><textarea class="formulario__input mensaje" onKeyUp="validarMensaje()"></textarea>
+						<label class="formulario__label">Mensaje</label><textarea class="formulario__input mensaje" name="message" onKeyUp="validarMensaje()"></textarea>
 						<div class="aviso aviso-msj"></div>
 						<input type="submit" value="Enviar Mensaje" class="formulario__button" onClick="validarForm(event)"></input>
 					</form>
 				</div>
-			</section>
+			</section>-->
 		</main>
 
 		<footer class="footer">

@@ -93,6 +93,28 @@
 	text-decoration: none; 
 }
 
+.visit-github{
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+}
+
+.visit-github p{
+	padding: 20px;
+	background-color: #FFFFFF;
+	border: 2px solid #B06232;
+}
+
+.visit-github p > a{
+	text-decoration: none;
+	color: #B06232;
+}
+
+.visit-github p > a:hover{
+	color: #A33B29;
+}
+
 @media screen and (max-width: 767px){
 	.experiencia{
 		padding: 1rem;
@@ -113,6 +135,13 @@
 	#ahorcado-img{
 		width: 18rem;
 		height: 15rem;
+	}
+	.visit-github{
+		padding: 10px 0px;
+	}
+	.visit-github p{
+		font-size: 18px;
+		padding: 10px;
 	}
 }
 
